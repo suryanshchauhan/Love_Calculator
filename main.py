@@ -1,10 +1,7 @@
-# 🚨 Don't change the code below 👇
 print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
-# 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
 initial = name1 + name2
 lower = initial.lower()
 true_total = lower.count("t") + lower.count("r") + lower.count("u") + lower.count("e")
